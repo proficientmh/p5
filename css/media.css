@@ -1,0 +1,85 @@
+@media (max-width:1164px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media (max-width:991px) {
+    .img-head-t2 h1 {
+        font-size: 62px;
+    }
+    .img-head-t2 h5 {
+        font-size: 16px;
+    }
+    .img-ht {
+        right: 4%;
+    }
+    .img .para {
+        height: 600px;
+    }
+    .text-one p {
+        font-size: 32px;
+    }
+    .img-l {
+        width: 100%;
+        margin-top: 213px;
+    }
+    .img-l img {
+        width: 100%;
+    }
+    .text-tw h4 {
+        font-size: 62px;
+    }
+    element {}
+    .text-tw p {
+        font-size: 22px;
+    }
+    .text-last h1 {
+        font-size: 62px;
+    }
+}
+
+@media (max-width:767px) {
+    .img::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        bottom: 0%;
+        left: 0;
+        right: 0%;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+    .img-ht {
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 355px;
+    }
+    .text-one p {
+        font-size: 32px;
+        padding: 0 !important;
+    }
+    .img-l {
+        width: 100%;
+        margin-top: 13px !important;
+    }
+    .text-tw p {
+        font-size: 22px;
+        padding: 0 !important;
+    }
+    .img-head-t2 h1 {
+        font-size: 50px !important;
+    }
+    .text-tw h4 {
+        font-size: 50px;
+    }
+    .text-last h1 {
+        font-size: 50px;
+        padding: 0 !important;
+    }
+    .text-last p:nth-child(2) {
+        padding-left: 0 !important;
+    }
+}
+
+@media(max-width:576px) {}
